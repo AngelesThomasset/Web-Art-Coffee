@@ -1,0 +1,66 @@
+.talleres-content{
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .talleres-content2{
+    gap: 20px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .talleres-1, .talleres-2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .taller-1{
+    padding: 15px 55px;
+  }
+  
+  .taller-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .taller-1 h3{
+    font-size: 25px;
+    color: #323337;
+  }
+  
+  .taller-1 img{
+    width: 200px;
+    height: 200px;
+  }
+  
+  .costos {
+    font-size: 20px;
+    color: #323337;
+    text-transform: uppercase;
+  }
+
+  @media(max-width:991px) {
+    
+    .talleres-costos-container{
+        padding: 30px;
+      }
+    
+      .talleres-content{
+        flex-direction: column;
+      }
+    
+      .taller-1{
+        padding: 0;
+      }
+    
+      .talleres-1, .talleres-2{
+        display: block;
+      }
+}    
