@@ -15,9 +15,44 @@
     background-size: cover;
     width: 50%;
   }
+  .general-4{
+    background-image: url(images/cocepto.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .general-6{
+    background-image: url(images/publicoObjetivo.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .general-8{
+    background-image: url(images/ventajasCompetitivas.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
   
   .general-3{
     background-image: url(images/formaExpresion.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .general-5{
+    background-image: url(images/queBuscamos.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+  .general-7{
+    background-image: url(images/impactoYcomunidad.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

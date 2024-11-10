@@ -1,43 +1,3 @@
-.general{
-  display: flex;
-}
-
-.general-1{
-  width: 50%;
-  padding: 100px 250px 100px 100px;
-  background-color: #E1E2E6;
-}
-
-.general-2{
-  background-image: url(images/jovenesArtistas.jpeg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 50%;
-}
-
-.general-3{
-  background-image: url(images/formaExpresion.jpeg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 50%;
-}
-
-h2{
-  font-size: 55px;
-  line-height: 70px;
-  color: #323337;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-p{
-  font-size: 16px;
-  color: #414247;
-  margin: 25px 0 45px 0;
-}
-
 .services {
   background-image: linear-gradient(
     rgba(0,0,0,0.7),
@@ -139,16 +99,6 @@ font-size: 20px;
 margin-bottom: 15px;
 }
 
-.footer{
-  padding: 100px 0;
-  background-color: #000000;
-}
-
-.footer-content{
-  display: flex;
-  justify-content: space-between;
-}
-
 link h3{
   font-size: 18px;
   color: #F9FAFC;
@@ -163,43 +113,6 @@ link h3{
 }
 
 @media(max-width:991px) {
-
-  .menu {
-    padding: 30px;
-  }
-
-  .menu label{
-    display: initial;
-  }
-
-  .menu .navbar{
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: #323337;
-    display: none;
-  }
-
-  .menu .navbar ul li{
-    width: 100%;
-  }
-
-  #menu:checked ~ .navbar{
-    display: initial;
-  }
-
-  .header{
-    min-height: 0vh;
-  }
-
-  .header-content{
-    padding: 100px 30px;
-  }
-
-  .header-content p{
-    padding: 0;
-  }
 
   .art{
     padding: 30px;
@@ -245,29 +158,6 @@ link h3{
 
   .services-3 {
     margin-bottom: 25px;
-  }
-
-  .general{
-    flex-direction: column;
-  }
-
-  .general-1{
-    width: 100%;
-    padding: 30px;
-    text-align: center;
-  }
-
-  .general-2, .general-3{
-    display: none;
-  }
-
-.footer{
-    padding: 30px;
-  }
-
-  .footer-content{
-    flex-direction: column;
-    text-align: center;
   }
 
 }
