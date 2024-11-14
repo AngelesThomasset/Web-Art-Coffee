@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="registroYinicio.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <div class="container-form register">
+        <div class="information">
+            <div class="info-childs">
+                <h2>Bienvenido</h2>
+                <p>
+                    Para unirte a nuestra comunidad por favor inicia sesión con tus datos
+                </p>
+                <p>Ya tienes una cuenta? Inicia sesión aqui:</p>
+                <a href="inicioDeSesion.html">Iniciar sesión</a>
+            </div>
+        </div>
+
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Crear una cuenta</h2>
+                <p>O usa tu email para registrarte</p>
+                <form class="form form-register" id="signupForm">
+                    <div>
+                        <label>
+                            <i class="bx bx-user"></i>
+                            <input type="text" placeholder="Nombre completo" id="name" required autofocus>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <i class='bx bxs-face'></i>
+                            <input type="text" placeholder="Apellidos" id="surnames" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <i class="bx bx-envelope"></i>
+                            <input type="email" placeholder="Correo electronico" id="email" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <i class="bx bx-lock-alt"></i>
+                            <input type="password" placeholder="Contraseña" id="password" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <i class='bx bx-male-female'></i>
+                            <input type="text" placeholder="Genero:" disabled>
+                        </label>
+                        <input type="radio" placeholder="Masculino" id="genred" name="genero"><p>Masculino</p>
+                        <input type="radio" placeholder="Femenino" id="genred" name="genero"><p>Femenino</p>
+                        <input type="radio" placeholder="No definido" id="genred" name="genero"><p>Ninguno de los anteriores</p>
+                    </div>
+                    <input type="submit" value="Registro">
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script src="register.js"></script>
+
+</body>
+
+</html>
