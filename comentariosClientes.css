@@ -1,0 +1,102 @@
+.content-container-reseñas {
+    width: auto;
+    height: 100%;
+    padding: 100px 100px;
+}
+
+.container-reseñas {
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    height: 600px;
+    transition: all 1s ease;
+    align-items: center;
+    text-align: center;
+    padding: 15%;
+    color: #333;
+    background-color: #ffc5a8;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.reseñas {
+    text-align: center;
+}
+
+.reseñas label {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 0 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reseñas label input {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #333;
+    margin: 10px;
+}
+
+.reseñas label i {
+    color: #a7a7a7;
+    font-size: 50px;
+}
+
+.reseñas label input[placeholder] {
+    font-size: 20px;
+}
+
+.reseñas input[type="submit"] {
+    background-color: #9b8276;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reseñas input[type="submit"]:hover {
+    background-color: #836e65;
+}
+
+@media(max-width:900px) {
+
+    .content-container-reseñas {
+        padding: 20px;
+    }
+
+    .container-reseñas {
+        height: auto;
+        padding: 20px;
+    }
+
+}
+
+@media(max-width:700px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    .container-reseñas {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .reseñas label i {
+        font-size: 35px;
+    }
+
+    .reseñas label input[placeholder] {
+        font-size: 15px;
+    }
+}

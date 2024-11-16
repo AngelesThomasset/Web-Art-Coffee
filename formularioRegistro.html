@@ -28,12 +28,12 @@
         </div>
 
         <div class="form-information">
-            <div class="form-information-childs">
+            <div class="form-information-childs" id="register-form">
                 <h2>Crear una cuenta</h2>
                 <p>O usa tu email para registrarte</p>
-                <form class="form form-register" id="signupForm">
+                <form class="form form-register" id="registerForm" onsubmit="signup(event)">
                     <div>
-                        <label>
+                        <label for="name">
                             <i class="bx bx-user"></i>
                             <input type="text" placeholder="Nombre completo" id="name" required autofocus>
                         </label>
@@ -65,7 +65,7 @@
                         <input type="radio" placeholder="Femenino" id="genred" name="genero"><p>Femenino</p>
                         <input type="radio" placeholder="No definido" id="genred" name="genero"><p>Ninguno de los anteriores</p>
                     </div>
-                    <input type="submit" value="Registro">
+                    <input type="submit" value="Registrarse">
                 </form>
             </div>
         </div>

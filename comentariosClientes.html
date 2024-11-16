@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="reseñasClientes.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="a" class="logo">Logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="#">Inicio</a></li>
+                    <li> <a href="#">Servicios</a></li>
+                    <li> <a href="#">Más informacion</a></li>
+                    <li><input id="logout" type="submit" value="Cerrar sesion"></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content">
+
+            <h1>Deja aqui tus opiniones</h1>
+            <p>
+                Ayudanos a saber tu opinion sobre las cosas en que debemos mejorar, para poder brindarte un mejor
+                servicio a ti y a proximos y antiguos clientes :)
+            </p>
+
+
+        </div>
+
+    </header>
+
+    <section class="content-container-reseñas" id="reseñasForm">
+        <div class="container-reseñas">
+            <div class="reseñas">
+                <h1>Por favor dejanos tu opinion sobre nuestros servicios en la siguiente sesión:</h1>
+                <form id="reseñas-clientes"></form>
+                <div>
+                    <label>
+                        <i class="bx bx-user"></i>
+                        <input type="text" placeholder="Nombre completo" id="name" required autofocus>
+                    </label>
+                </div>
+                <label>
+                    <i class='bx bx-comment'></i>
+                    <input type="text" placeholder="Agrega tu reseña aqui..." id="comment" required>
+                </label>
+                <input id="enviarReseña" type="submit" value="Enviar reseña">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <ul>
+                    <li><a href="#">Numero celular: 1234567</a></li>
+                    <li><a href="#">Instagram: art_coffee.uy</a></li>
+                </ul>
+
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="#">Facebook:Art&Coffee</a></li>
+                    <li><a href="#">Gmail: art&coffee@gmail.com</a></li>
+                </ul>
+
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="#">Twitter: art_coffee.uy</a></li>
+                    <li><a href="#">TikTok: art_coffee.uy</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="cerrarSesion.js"></script>
+    <script src="reseñas.js"></script>
+</body>
+
+</html>

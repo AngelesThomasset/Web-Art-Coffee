@@ -59,6 +59,22 @@ body {
   font-weight: 600;
 }
 
+.menu .navbar ul li input[type="submit"] {
+  font-size: 18px;
+  background-color: #CE967B;
+  color: #F9FAFC;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu .navbar ul li input[type="submit"]:hover {
+  background-color: #ffbc9b;
+}
+
 .menu .navbar ul li a:hover{
   color: #CE967B;
 }
@@ -128,6 +144,10 @@ body {
   
     .menu .navbar ul li{
       width: 100%;
+    }
+
+    .menu .navbar ul li input[type="submit"] {
+      margin-bottom: 15px;
     }
   
     #menu:checked ~ .navbar{

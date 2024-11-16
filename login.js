@@ -10,6 +10,6 @@ loginForm.addEventListener('submit', (e)=>{
     }
     alert(`Bienvenid@ ${validUser.name}`)
     localStorage.setItem('login_success', JSON.stringify(validUser))
-    window.location.href = 'pagina2.html'
+    window.location.href = 'reseñas.html'
 
 })
