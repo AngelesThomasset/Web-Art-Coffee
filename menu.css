@@ -165,4 +165,12 @@ body {
     .header-content p{
       padding: 0;
     }
+
+  }    
+  @media(min-width:991px) {
+
+    .menu-icono{
+      display: none;
+    }
+
   }  
